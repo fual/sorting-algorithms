@@ -16,8 +16,8 @@ const sortingAlgorithms = [
   },
 ];
 
-const actualArray = [8, 1, 3, 6, 2, 10, 5, 9, 4, 7,];
-const expectedArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,];
+const actualArray = [8, 1, 3, 6, 2, 5, 4, 7,];
+const expectedArray = [1, 2, 3, 4, 5, 6, 7, 8,];
 
 describe('sorting-algorithms', () => {
 

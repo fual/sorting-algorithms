@@ -46,4 +46,4 @@ const divideAndConquer = (arr, callBack) => {
   return callBack(b1, b2);
 };
 
-module.exports = (arr) => divideAndConquer(arr, mergeArray);
+module.exports = arr => divideAndConquer(arr, mergeArray);
