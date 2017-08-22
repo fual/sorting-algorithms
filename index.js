@@ -1,4 +1,4 @@
-Array.prototype.swap = (index1, index2) => {
+Array.prototype.swap = function (index1, index2) {
   const value1 = this[index1];
   const value2 = this[index2];
   this[index1] = value2;
